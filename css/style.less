@@ -1,4 +1,147 @@
-// out: ../css/style.css, sourcemap: true, compress: true
+// out: ../css/style.css, sourcemap: true, compress: false
+@blue: #2e3192;
+@white: #ffffff;
+@black: #000000;
+@sky : #00adef;
+@ash-title: #a2a4c7;
+@off-white: #f0f2f5;
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 #header {
-  background: red;
+  background-color: @white;
+
+  .navigation {
+    ul {
+      li {
+        a {
+          .roboto;
+        }
+      }
+    }
+  }
+}
+//banner
+.banner {
+  background-image: url(../images/top-banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  .banner-txt-rap {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0;
+    h3 {
+      color: @white;
+    }
+    p {
+      color: @white;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+}
+//benifits
+.benifits {
+  background-color: @off-white;
+  position: relative;
+  .download-part {
+    position: absolute;
+    max-width: 40%;
+    left: 30%;
+    top: -50px;
+    .download-part-rap {
+      p {
+        font-size: 8px;
+        font-weight: 700;
+        text-align: center;
+      }
+      .download-area {
+        background-color: @white;
+        -webkit-box-shadow: 0px 46px 47px 22px rgba(238,238,238,1);
+    -moz-box-shadow: 0px 46px 47px 22px rgba(238,238,238,1);
+    box-shadow: 0px 46px 47px 22px rgba(238,238,238,1);
+        .download-fileds {
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .benifit-rap {
+    width: 100%;
+    padding: 120px 0 100px;
+    .benifit-title {
+      h4 {
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: @blue;
+      }
+    }
+    .benifits-list {
+      width: 80%;
+      margin: 0 auto;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          float: left;
+          width: 20%;
+          .benifit-list-rap {
+            img {
+              max-width: 120px;
+            }
+            h5 {
+              font-weight: 700;
+              font-size: 13px;
+              color: @blue;
+            }
+            p {
+              font-size: 10px;
+              color: @blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//who-benifits
+.who-benifits {
+  .benifit-rap {
+    width: 100%;
+    padding: 120px 0 100px;
+    .benifit-title {
+      h4 {
+        font-weight: 700;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: @blue;
+      }
+    }
+    .who-benifits-tabs {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+//testmonial
+.tstimonial {
+  background-color: @blue;
+  .tstimonial-rap {
+    padding: 50px 0;
+    .carousel {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
 }

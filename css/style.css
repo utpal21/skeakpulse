@@ -1,1 +1,116 @@
-#header{background:red}
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#header {
+  background-color: #ffffff;
+}
+#header .navigation ul li a {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.banner {
+  background-image: url(../images/top-banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.banner .banner-txt-rap {
+  max-width: 400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.banner .banner-txt-rap h3 {
+  color: #ffffff;
+}
+.banner .banner-txt-rap p {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 300;
+}
+.benifits {
+  background-color: #f0f2f5;
+  position: relative;
+}
+.benifits .download-part {
+  position: absolute;
+  max-width: 40%;
+  left: 30%;
+  top: -50px;
+}
+.benifits .download-part .download-part-rap p {
+  font-size: 8px;
+  font-weight: 700;
+  text-align: center;
+}
+.benifits .download-part .download-part-rap .download-area {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 46px 47px 22px #eeeeee;
+  -moz-box-shadow: 0px 46px 47px 22px #eeeeee;
+  box-shadow: 0px 46px 47px 22px #eeeeee;
+}
+.benifits .download-part .download-part-rap .download-area .download-fileds {
+  padding: 10px;
+}
+.benifits .benifit-rap {
+  width: 100%;
+  padding: 120px 0 100px;
+}
+.benifits .benifit-rap .benifit-title h4 {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #2e3192;
+}
+.benifits .benifit-rap .benifits-list {
+  width: 80%;
+  margin: 0 auto;
+}
+.benifits .benifit-rap .benifits-list ul {
+  margin: 0;
+  padding: 0;
+}
+.benifits .benifit-rap .benifits-list ul li {
+  list-style: none;
+  float: left;
+  width: 20%;
+}
+.benifits .benifit-rap .benifits-list ul li .benifit-list-rap img {
+  max-width: 120px;
+}
+.benifits .benifit-rap .benifits-list ul li .benifit-list-rap h5 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #2e3192;
+}
+.benifits .benifit-rap .benifits-list ul li .benifit-list-rap p {
+  font-size: 10px;
+  color: #2e3192;
+}
+.who-benifits .benifit-rap {
+  width: 100%;
+  padding: 120px 0 100px;
+}
+.who-benifits .benifit-rap .benifit-title h4 {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #2e3192;
+}
+.who-benifits .benifit-rap .who-benifits-tabs {
+  width: 100%;
+  margin: 0 auto;
+}
+.tstimonial {
+  background-color: #2e3192;
+}
+.tstimonial .tstimonial-rap {
+  padding: 50px 0;
+}
+.tstimonial .tstimonial-rap .carousel {
+  width: 80%;
+  margin: 0 auto;
+}
