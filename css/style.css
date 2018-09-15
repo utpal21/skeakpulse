@@ -6,6 +6,14 @@ body {
 }
 #header {
   background-color: #ffffff;
+  padding: 15px 0;
+}
+#header .logo {
+  padding: 0 0 0 15px;
+}
+#header .logo img {
+  max-width: 180px;
+  width: 50%;
 }
 #header .navigation ul li a {
   font-family: 'Roboto Condensed', sans-serif;
@@ -18,18 +26,20 @@ body {
   width: 100%;
 }
 .banner .banner-txt-rap {
-  max-width: 400px;
   width: 90%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 12% 0 18%;
 }
 .banner .banner-txt-rap h3 {
   color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
 }
 .banner .banner-txt-rap p {
   color: #ffffff;
   font-style: italic;
   font-weight: 300;
+  font-size: 25px;
 }
 .benifits {
   background-color: #f0f2f5;
@@ -37,33 +47,45 @@ body {
 }
 .benifits .download-part {
   position: absolute;
-  max-width: 40%;
-  left: 30%;
-  top: -50px;
+  width: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20%;
 }
 .benifits .download-part .download-part-rap p {
-  font-size: 8px;
+  font-size: 15px;
   font-weight: 700;
   text-align: center;
+  color: #ffffff;
 }
 .benifits .download-part .download-part-rap .download-area {
   background-color: #ffffff;
-  -webkit-box-shadow: 0px 46px 47px 22px #eeeeee;
-  -moz-box-shadow: 0px 46px 47px 22px #eeeeee;
-  box-shadow: 0px 46px 47px 22px #eeeeee;
+  -webkit-box-shadow: 0px 10px 27px 0px rgba(46, 49, 146, 0.1);
+  -moz-box-shadow: 0px 10px 27px 0px rgba(46, 49, 146, 0.1);
+  box-shadow: 0px 10px 27px 0px rgba(46, 49, 146, 0.1);
+  border-radius: 5px;
 }
 .benifits .download-part .download-part-rap .download-area .download-fileds {
-  padding: 10px;
+  padding: 10% 0;
+}
+.benifits .download-part .download-part-rap .download-area .download-fileds .form-row {
+  width: 70%;
+  margin: 0 auto;
 }
 .benifits .benifit-rap {
   width: 100%;
-  padding: 120px 0 100px;
+  padding: 10% 0;
+}
+.benifits .benifit-rap .benifit-title {
+  padding: 0 0 30px 0;
 }
 .benifits .benifit-rap .benifit-title h4 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 25px;
   text-transform: uppercase;
   color: #2e3192;
+  letter-spacing: 10px;
+  opacity: .5;
 }
 .benifits .benifit-rap .benifits-list {
   width: 80%;
@@ -79,38 +101,170 @@ body {
   width: 20%;
 }
 .benifits .benifit-rap .benifits-list ul li .benifit-list-rap img {
-  max-width: 120px;
+  max-width: 180px;
+  width: 70%;
 }
 .benifits .benifit-rap .benifits-list ul li .benifit-list-rap h5 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   color: #2e3192;
+  padding: 15px 0 0 0;
 }
 .benifits .benifit-rap .benifits-list ul li .benifit-list-rap p {
-  font-size: 10px;
+  font-size: 12px;
   color: #2e3192;
+  padding: 15px 10%;
 }
 .who-benifits .benifit-rap {
   width: 100%;
-  padding: 120px 0 100px;
+  padding: 6% 0;
+}
+.who-benifits .benifit-rap .benifit-title {
+  padding: 0 0 50px 0;
 }
 .who-benifits .benifit-rap .benifit-title h4 {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 25px;
   text-transform: uppercase;
   color: #2e3192;
+  letter-spacing: 10px;
+  opacity: .5;
 }
 .who-benifits .benifit-rap .who-benifits-tabs {
   width: 100%;
   margin: 0 auto;
 }
+.who-benifits .benifit-rap .who-benifits-tabs nav {
+  width: 100%;
+}
+.who-benifits .benifit-rap .who-benifits-tabs nav .nav-tabs {
+  padding-left: 20%;
+}
+.who-benifits .benifit-rap .who-benifits-tabs nav .nav-tabs .nav-link {
+  padding: .5rem 6rem;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  border-color: #e9ecef #e9ecef transparent #e9ecef;
+  color: #2e3192;
+  background-color: #f0f2f5;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.who-benifits .benifit-rap .who-benifits-tabs nav .nav-tabs .active {
+  padding: .5rem 6rem;
+  color: #00adef;
+  background-color: #ffffff;
+  box-shadow: 0px -10px 10px 0px rgba(0, 48, 132, 0.1);
+}
+.who-benifits .benifit-rap .who-benifits-tabs .tab-content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.who-benifits .benifit-rap .who-benifits-tabs .tab-content .tab-inner .tab-left {
+  float: left;
+}
+.who-benifits .benifit-rap .who-benifits-tabs .tab-content .tab-inner .tab-left .left-inner img {
+  width: 100%;
+}
+.who-benifits .benifit-rap .who-benifits-tabs .tab-content .tab-inner .tab-right {
+  float: left;
+}
 .tstimonial {
   background-color: #2e3192;
 }
 .tstimonial .tstimonial-rap {
-  padding: 50px 0;
+  padding: 8% 0;
+}
+.tstimonial .tstimonial-rap .tesimonial-title {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+.tstimonial .tstimonial-rap .tesimonial-title h2 {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 10px;
 }
 .tstimonial .tstimonial-rap .carousel {
   width: 80%;
   margin: 0 auto;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-indicators {
+  bottom: -60px;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00adef;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-indicators li.active {
+  height: 12px;
+  width: 12px;
+  background-color: #ffffff;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-inner .carousel-item {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-inner .carousel-item p {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 18px;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url(../images/arrow-left.png);
+  width: 11px;
+  height: 17px;
+}
+.tstimonial .tstimonial-rap .carousel .carousel-control-next .carousel-control-next-icon {
+  background-image: url(../images/arrow-right.png);
+  width: 11px;
+  height: 17px;
+}
+.why-us {
+  width: 100%;
+  padding: 115px 0 80px;
+  background-image: url(../images/why-us-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.why-us .why-us-rap {
+  width: 100%;
+  margin: 0 auto;
+}
+.why-us .why-us-rap .why-us-text {
+  width: 60%;
+  margin: 0 auto;
+}
+.why-us .why-us-rap .why-us-text .why-us-left {
+  width: 40%;
+  float: left;
+}
+.why-us .why-us-rap .why-us-text .why-us-left h1 {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 130px 0 0 0;
+}
+.why-us .why-us-rap .why-us-text .why-us-right {
+  width: 60%;
+  float: left;
+}
+.why-us .why-us-rap .why-us-text .why-us-right .why-right-txt {
+  border-left: 1px solid #ffffff;
+  padding-left: 25px;
+}
+.why-us .why-us-rap .why-us-text .why-us-right .why-right-txt p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
 }

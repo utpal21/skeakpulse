@@ -16,6 +16,14 @@ body {
 
 #header {
   background-color: @white;
+  padding: 15px 0;
+  .logo {
+    padding: 0 0 0 15px;
+    img {
+      max-width: 180px;
+      width: 50%;
+    }
+  }
 
   .navigation {
     ul {
@@ -35,17 +43,19 @@ body {
   background-position: center;
   width: 100%;
   .banner-txt-rap {
-    max-width: 400px;
     width: 90%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 12% 0 18%;
     h3 {
       color: @white;
+      font-size: 60px;
+      font-weight: 700;
     }
     p {
       color: @white;
       font-style: italic;
       font-weight: 300;
+      font-size: 25px;
     }
   }
 }
@@ -55,35 +65,50 @@ body {
   position: relative;
   .download-part {
     position: absolute;
-    max-width: 40%;
-    left: 30%;
-    top: -50px;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20%;
     .download-part-rap {
       p {
-        font-size: 8px;
+        font-size: 15px;
         font-weight: 700;
         text-align: center;
+        color: @white;
       }
       .download-area {
         background-color: @white;
-        -webkit-box-shadow: 0px 46px 47px 22px rgba(238,238,238,1);
-    -moz-box-shadow: 0px 46px 47px 22px rgba(238,238,238,1);
-    box-shadow: 0px 46px 47px 22px rgba(238,238,238,1);
+        -webkit-box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+    -moz-box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+    box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+
+    border-radius: 5px;
         .download-fileds {
-          padding: 10px;
+          padding: 10% 0;
+          .form-row {
+            width: 70%;
+            margin: 0 auto;
+            input {
+
+            }
+
+          }
         }
       }
     }
   }
   .benifit-rap {
     width: 100%;
-    padding: 120px 0 100px;
+    padding: 10% 0;
     .benifit-title {
+      padding: 0 0 30px 0;
       h4 {
         font-weight: 700;
-        font-size: 13px;
+        font-size: 25px;
         text-transform: uppercase;
         color: @blue;
+        letter-spacing: 10px;
+        opacity: .5;
       }
     }
     .benifits-list {
@@ -98,16 +123,19 @@ body {
           width: 20%;
           .benifit-list-rap {
             img {
-              max-width: 120px;
+              max-width: 180px;
+              width: 70%;
             }
             h5 {
               font-weight: 700;
-              font-size: 13px;
+              font-size: 15px;
               color: @blue;
+              padding: 15px 0 0 0;
             }
             p {
-              font-size: 10px;
+              font-size: 12px;
               color: @blue;
+              padding: 15px 10%;
             }
           }
         }
@@ -119,18 +147,66 @@ body {
 .who-benifits {
   .benifit-rap {
     width: 100%;
-    padding: 120px 0 100px;
+    padding: 6% 0;
     .benifit-title {
+      padding: 0 0 50px 0;
       h4 {
         font-weight: 700;
-        font-size: 13px;
+        font-size: 25px;
         text-transform: uppercase;
         color: @blue;
+        letter-spacing: 10px;
+        opacity: .5;
       }
     }
     .who-benifits-tabs {
       width: 100%;
       margin: 0 auto;
+      nav {
+        width: 100%;
+        .nav-tabs {
+          padding-left: 20%;
+          .nav-link {
+            padding: .5rem 6rem;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+            border-color: #e9ecef #e9ecef transparent #e9ecef;
+            color: @blue;
+            background-color: @off-white;
+            .roboto;
+          }
+          .active {
+            padding: .5rem 6rem;
+            color: @sky;
+            background-color: @white;
+            box-shadow: 0px -10px 10px 0px rgba( 0, 48, 132, 0.1 )
+          }
+        }
+      }
+      .tab-content {
+        width: 60%;
+        margin: 0 auto;
+        padding: 40px 0;
+        .tab-inner {
+          .tab-left {
+            float: left;
+            .left-inner {
+              img {
+                width: 100%;
+              }
+            }
+          }
+          .tab-right {
+            float: left;
+            .right-inner {
+
+            }
+
+          }
+
+        }
+      }
     }
   }
 }
@@ -138,10 +214,106 @@ body {
 .tstimonial {
   background-color: @blue;
   .tstimonial-rap {
-    padding: 50px 0;
+    padding: 8% 0;
+    .tesimonial-title {
+      width: 100%;
+      text-align: center;
+      padding: 0 0 40px 0;
+      h2 {
+        font-weight: 800;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: @white;
+        letter-spacing: 10px;
+      }
+    }
     .carousel {
       width: 80%;
       margin: 0 auto;
+      .carousel-indicators {
+        bottom: -60px;
+        li {
+          width:  10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: @sky;
+          &.active {
+            height: 12px;
+            width: 12px;
+            background-color: @white
+          }
+        }
+      }
+      .carousel-inner {
+        .carousel-item {
+          width: 60%;
+          margin: 0 auto;
+          text-align: center;
+          p {
+            color: @white;
+            font-style: italic;
+            font-size: 18px;
+          }
+        }
+      }
+      .carousel-control-prev {
+        .carousel-control-prev-icon {
+          background-image: url(../images/arrow-left.png);
+          width: 11px;
+          height: 17px;
+        }
+      }
+      .carousel-control-next {
+        .carousel-control-next-icon {
+          background-image: url(../images/arrow-right.png);
+          width: 11px;
+          height: 17px;
+        }
+      }
     }
+  }
+}
+.why-us {
+  width: 100%;
+  padding: 115px 0 80px;
+  background-image: url(../images/why-us-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .why-us-rap {
+    width: 100%;
+    margin: 0 auto;
+    .why-us-text {
+      width: 60%;
+      margin: 0 auto;
+      .why-us-left {
+        width: 40%;
+        float: left;
+        h1 {
+          font-weight: 800;
+          font-size: 30px;
+          letter-spacing: 10px;
+          text-transform: uppercase;
+          color: @white;
+          text-align: center;
+          padding: 130px 0 0 0;
+        }
+      }
+      .why-us-right {
+        width: 60%;
+        float: left;
+        .why-right-txt {
+          border-left: 1px solid @white;
+          padding-left: 25px;
+          p {
+            font-size: 18px;
+            color: @white;
+            font-weight: 700;
+
+          }
+        }
+      }
+    }
+
   }
 }
