@@ -5,6 +5,9 @@
 @sky : #00adef;
 @ash-title: #a2a4c7;
 @off-white: #f0f2f5;
+@ash-text: #666666;
+@footer-bg: #151746;
+@copy-bg: #2b2f8c;
 
 .roboto {
   font-family: 'Roboto Condensed', sans-serif;
@@ -12,6 +15,22 @@
 
 body {
   font-family: 'Merriweather Sans', sans-serif;
+}
+
+.btn-more {
+  a {
+    color: @white;
+    background-color: transparent;
+    padding: 15px 40px;
+    font-size: 18px;
+    border: 1px solid @white;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block;
+    max-width: 240px;
+  }
 }
 
 #header {
@@ -30,6 +49,10 @@ body {
       li {
         a {
           .roboto;
+          color: @blue;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase;
         }
       }
     }
@@ -145,6 +168,7 @@ body {
 }
 //who-benifits
 .who-benifits {
+  padding: 0;
   .benifit-rap {
     width: 100%;
     padding: 6% 0;
@@ -309,11 +333,66 @@ body {
             font-size: 18px;
             color: @white;
             font-weight: 700;
-
+          }
+          .more-btn {
+            padding: 30px 0 12px 0;
           }
         }
       }
     }
 
+  }
+  .suscribe {
+    width: 100%;
+    padding: 80px 0 0 0;
+    .download-part {
+      width: 40%;
+      margin: 0 auto;
+      .download-part-rap {
+        p {
+          font-size: 15px;
+          font-weight: 700;
+          text-align: center;
+          color: @white;
+        }
+        .download-area {
+          background-color: @white;
+          -webkit-box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+          -moz-box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+          box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+          border-radius: 5px;
+          .download-fileds {
+            padding: 10% 0;
+            .form-row {
+              width: 70%;
+              margin: 0 auto;
+              input {
+
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer {
+  .footer-row {
+    background-color: @footer-bg;
+    padding: 10px 0;
+
+  }
+  .copyright-row {
+    background-color: @copy-bg;
+    padding: 15px 0;
+    p {
+      text-align: center;
+      font-family: 'Barlow', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0;
+      color: @sky;
+    }
   }
 }
