@@ -335,3 +335,174 @@ body {
   margin: 0;
   color: #00adef;
 }
+/**
+* About us page
+*/
+.about-banner {
+  background-image: url(../images/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.about-banner .banner-txt-rap {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10% 0 12.7%;
+}
+.about-banner .banner-txt-rap h3 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about-banner .banner-txt-rap p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 25px;
+  margin: 0;
+  margin: 24px 0 0 0;
+}
+.individuals {
+  position: relative;
+}
+.individuals .individuals-rap {
+  width: 100%;
+  padding: 4.4% 0 2.2%;
+}
+.individuals .individuals-rap .individuals-title {
+  padding: 0 0 110px 0;
+}
+.individuals .individuals-rap .individuals-title h4 {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #2e3192;
+  letter-spacing: 12px;
+  opacity: .5;
+}
+.individuals .individuals-rap .individuals-list {
+  width: 82%;
+  margin: 0 auto;
+}
+.individuals .individuals-rap .individuals-list .un-list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.individuals .individuals-rap .individuals-list .un-list li {
+  list-style: none;
+  float: left;
+  width: 29%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 27px 0px rgba(46, 49, 146, 0.1);
+  -moz-box-shadow: 0px 0px 27px 0px rgba(46, 49, 146, 0.1);
+  box-shadow: 0px 0px 27px 0px rgba(46, 49, 146, 0.1);
+  margin-right: 6.5%;
+}
+.individuals .individuals-rap .individuals-list .un-list li:last-child {
+  margin-right: 0;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap img {
+  max-width: 138px;
+  width: 31%;
+  margin: -15% 0 0 0;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap h5 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #666666;
+  padding: 34px 0 35px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #d6d8e5;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap h5 span.speak {
+  color: #2e3192;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap h5 span.pulse {
+  color: #00adef;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap .indi-list {
+  width: 52%;
+  margin: 0 auto;
+  padding: 14% 0 14% 0;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap .indi-list .fa-ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap .indi-list .fa-ul li {
+  width: 100%;
+  box-shadow: none;
+  text-align: left;
+  font-size: 16px;
+  line-height: 23px;
+  color: #666666;
+  margin: 0 0 20px 0;
+}
+.individuals .individuals-rap .individuals-list .un-list li .individuals-list-rap .indi-list .fa-ul li .fa-li {
+  color: #2e3192;
+}
+.individuals .individuals-rap .individuals-list .app-link {
+  width: 100%;
+  padding: 38px 0 7px 0
+
+
+        ;
+}
+.individuals .individuals-rap .individuals-list .app-link ul li a {
+  padding: 0;
+}
+.enterprise {
+  width: 100%;
+  padding: 152px 0 153px;
+  background-image: url(../images/about-footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.enterprise .why-us-rap {
+  width: 100%;
+  margin: 0 auto;
+}
+.enterprise .why-us-rap .why-us-text {
+  width: 100%;
+  margin: 0 auto;
+}
+.enterprise .why-us-rap .why-us-text .why-us-left {
+  width: 50%;
+  float: left;
+}
+.enterprise .why-us-rap .why-us-text .why-us-left h1 {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding: 75px 47px 0 0;
+  text-align: right;
+}
+.enterprise .why-us-rap .why-us-text .why-us-right {
+  width: 50%;
+  float: left;
+}
+.enterprise .why-us-rap .why-us-text .why-us-right .why-right-txt {
+  border-left: 1px solid #ffffff;
+  padding: 66px 0 39px 64px;
+}
+.enterprise .why-us-rap .why-us-text .why-us-right .why-right-txt p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.enterprise .why-us-rap .why-us-text .why-us-right .why-right-txt .more-btn {
+  padding: 0;
+}
+.enterprise .why-us-rap .why-us-text .why-us-right .why-right-txt .more-btn a {
+  padding: 10px 5px;
+  max-width: 250px;
+  font-family: 'Roboto Condensed', sans-serif;
+}

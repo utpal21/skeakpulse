@@ -8,6 +8,7 @@
 @ash-text: #666666;
 @footer-bg: #151746;
 @copy-bg: #2b2f8c;
+@border-clr: #d6d8e5;
 
 .roboto {
   font-family: 'Roboto Condensed', sans-serif;
@@ -393,6 +394,189 @@ body {
       font-weight: 500;
       margin: 0;
       color: @sky;
+    }
+  }
+}
+
+
+/**
+* About us page
+*/
+.about-banner {
+  background-image: url(../images/about-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  .banner-txt-rap {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10% 0 12.7%;
+    h3 {
+      color: @white;
+      font-size: 48px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    p {
+      color: @white;
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 25px;
+      margin: 0;
+      margin: 24px 0 0 0;
+    }
+  }
+
+}
+.individuals {
+  position: relative;
+  .individuals-rap {
+    width: 100%;
+    padding: 4.4% 0 2.2%;
+    .individuals-title {
+      padding: 0 0 110px 0;
+      h4 {
+        font-weight: 800;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: @blue;
+        letter-spacing: 12px;
+        opacity: .5;
+      }
+    }
+    .individuals-list {
+      width: 82%;
+      margin: 0 auto;
+      .un-list {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        li {
+          list-style: none;
+          float: left;
+          width: 29%;
+          background-color: @white;
+          -webkit-box-shadow: 0px 0px 27px 0px rgba( 46, 49, 146, .1 );
+          -moz-box-shadow: 0px 0px 27px 0px rgba( 46, 49, 146, .1 );
+          box-shadow: 0px 0px 27px 0px rgba( 46, 49, 146, .1 );
+          margin-right: 6.5%;
+          &:last-child {
+            margin-right: 0;
+          }
+          .individuals-list-rap {
+            img {
+              max-width: 138px;
+              width: 31%;
+              margin: -15% 0 0 0;
+            }
+            h5 {
+              font-weight: 800;
+              font-size: 30px;
+              color: @ash-text;
+              padding: 34px 0 35px 0;
+              text-transform: uppercase;
+              border-bottom: 1px solid @border-clr;
+              span.speak {
+                color: @blue;
+              }
+              span.pulse {
+                color: @sky;
+              }
+            }
+            .indi-list {
+              width: 52%;
+              margin: 0 auto;
+              padding: 14% 0 14% 0;
+              .fa-ul {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                li {
+                  width: 100%;
+                  box-shadow: none;
+                  text-align: left;
+                  font-size: 16px;
+                  line-height: 23px;
+                  color: @ash-text;
+                  margin: 0 0 20px 0;
+                  .fa-li {
+                    color: @blue;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .app-link {
+        width: 100%;
+        padding: 38px 0 7px 0
+
+
+        ;
+        ul {
+          li {
+            a {
+              padding: 0;
+              img {
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.enterprise {
+  width: 100%;
+  padding: 152px 0 153px;
+  background-image: url(../images/about-footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .why-us-rap {
+    width: 100%;
+    margin: 0 auto;
+    .why-us-text {
+      width: 100%;
+      margin: 0 auto;
+      .why-us-left {
+        width: 50%;
+        float: left;
+        h1 {
+          font-weight: 800;
+          font-size: 30px;
+          letter-spacing: 15px;
+          text-transform: uppercase;
+          color: @white;
+          text-align: center;
+          padding: 75px 47px 0 0;
+          text-align: right;
+        }
+      }
+      .why-us-right {
+        width: 50%;
+        float: left;
+        .why-right-txt {
+          border-left: 1px solid @white;
+          padding: 66px 0 39px 64px;
+          p {
+            font-size: 18px;
+            color: @white;
+            font-weight: 700;
+          }
+          .more-btn {
+            padding: 0;
+            a {
+              padding: 10px 5px;
+              max-width: 250px;
+              .roboto;
+            }
+          }
+        }
+      }
     }
   }
 }
