@@ -16,6 +16,7 @@
 
 body {
   font-family: 'Merriweather Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .btn-more {
@@ -875,5 +876,173 @@ body {
   .side-bar {
     width: 30%;
     float: left;
+  }
+}
+
+/**
+* Team Page
+*/
+//team banner
+.team-banner {
+  background-image: url(../images/team-banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  .banner-txt-rap {
+    width: 50%;
+    margin: 0 auto;
+    padding: 8.6% 0 9.6%;
+    h3 {
+      color: @white;
+      font-size: 48px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    p {
+      color: @white;
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 21px;
+      margin: 0;
+      margin: 24px 0 0 0;
+    }
+  }
+
+}
+//team member
+.team-section {
+  width: 100%;
+  padding: 8% 0 12.5%;
+  .team-rap {
+    .team {
+      text-align: center;
+      min-height: 290px;
+      margin-bottom: 42px;
+      h2 {
+        color: @ash-text;
+        font-weight: 800;
+        font-size: 30px;
+        margin-top: 22%;
+        text-transform: uppercase;
+        letter-spacing: 12px;
+      }
+      img {
+        max-width: 158px;
+        width: 65%;
+        margin: 0 auto 12px;
+      }
+      h4 {
+        color: @blue;
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0;
+      }
+      p {
+        color: @blue;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+  }
+}
+//testmonial
+.team-tstimonial {
+  background-color: @blue;
+  position: relative;
+  .download-part {
+    position: absolute;
+    width: 47%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -28%;
+    .download-part-rap {
+      p {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        color: @ash-text;
+      }
+      .download-area {
+        background-color: @white;
+        -webkit-box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+    -moz-box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+    box-shadow: 0px 10px 27px 0px rgba( 46, 49, 146, .1 );
+
+    border-radius: 5px;
+        .download-fileds {
+          padding: 9.8% 0;
+          .form-row {
+            width: 70%;
+            margin: 0 auto;
+            input {
+
+            }
+
+          }
+        }
+      }
+    }
+  }
+  .tstimonial-rap {
+    padding: 9.6% 0;
+    .tesimonial-title {
+      width: 100%;
+      text-align: center;
+      padding: 0 0 40px 0;
+      h2 {
+        font-weight: 800;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: @white;
+        letter-spacing: 10px;
+      }
+    }
+    .carousel {
+      width: 80%;
+      margin: 0 auto;
+      .carousel-indicators {
+        bottom: -60px;
+        li {
+          width:  10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: @sky;
+          &.active {
+            height: 12px;
+            width: 12px;
+            background-color: @white
+          }
+        }
+      }
+      .carousel-inner {
+        .carousel-item {
+          width: 60%;
+          margin: 0 auto;
+          text-align: center;
+          p {
+            color: @white;
+            font-style: italic;
+            font-size: 18px;
+          }
+        }
+      }
+      .carousel-control-prev {
+        .carousel-control-prev-icon {
+          background-image: url(../images/arrow-left.png);
+          width: 11px;
+          height: 17px;
+        }
+      }
+      .carousel-control-next {
+        .carousel-control-next-icon {
+          background-image: url(../images/arrow-right.png);
+          width: 11px;
+          height: 17px;
+        }
+      }
+    }
   }
 }

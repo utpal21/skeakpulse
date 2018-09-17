@@ -3,6 +3,7 @@
 }
 body {
   font-family: 'Merriweather Sans', sans-serif;
+  overflow-x: hidden;
 }
 .btn-more a {
   color: #ffffff;
@@ -788,4 +789,152 @@ body {
 .blog-section .side-bar {
   width: 30%;
   float: left;
+}
+/**
+* Team Page
+*/
+.team-banner {
+  background-image: url(../images/team-banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.team-banner .banner-txt-rap {
+  width: 50%;
+  margin: 0 auto;
+  padding: 8.6% 0 9.6%;
+}
+.team-banner .banner-txt-rap h3 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.team-banner .banner-txt-rap p {
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 21px;
+  margin: 0;
+  margin: 24px 0 0 0;
+}
+.team-section {
+  width: 100%;
+  padding: 8% 0 12.5%;
+}
+.team-section .team-rap .team {
+  text-align: center;
+  min-height: 290px;
+  margin-bottom: 42px;
+}
+.team-section .team-rap .team h2 {
+  color: #666666;
+  font-weight: 800;
+  font-size: 30px;
+  margin-top: 22%;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+}
+.team-section .team-rap .team img {
+  max-width: 158px;
+  width: 65%;
+  margin: 0 auto 12px;
+}
+.team-section .team-rap .team h4 {
+  color: #2e3192;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+}
+.team-section .team-rap .team p {
+  color: #2e3192;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+.team-tstimonial {
+  background-color: #2e3192;
+  position: relative;
+}
+.team-tstimonial .download-part {
+  position: absolute;
+  width: 47%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -28%;
+}
+.team-tstimonial .download-part .download-part-rap p {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  color: #666666;
+}
+.team-tstimonial .download-part .download-part-rap .download-area {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 10px 27px 0px rgba(46, 49, 146, 0.1);
+  -moz-box-shadow: 0px 10px 27px 0px rgba(46, 49, 146, 0.1);
+  box-shadow: 0px 10px 27px 0px rgba(46, 49, 146, 0.1);
+  border-radius: 5px;
+}
+.team-tstimonial .download-part .download-part-rap .download-area .download-fileds {
+  padding: 9.8% 0;
+}
+.team-tstimonial .download-part .download-part-rap .download-area .download-fileds .form-row {
+  width: 70%;
+  margin: 0 auto;
+}
+.team-tstimonial .tstimonial-rap {
+  padding: 9.6% 0;
+}
+.team-tstimonial .tstimonial-rap .tesimonial-title {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+.team-tstimonial .tstimonial-rap .tesimonial-title h2 {
+  font-weight: 800;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 10px;
+}
+.team-tstimonial .tstimonial-rap .carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-indicators {
+  bottom: -60px;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00adef;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-indicators li.active {
+  height: 12px;
+  width: 12px;
+  background-color: #ffffff;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-inner .carousel-item {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-inner .carousel-item p {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 18px;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url(../images/arrow-left.png);
+  width: 11px;
+  height: 17px;
+}
+.team-tstimonial .tstimonial-rap .carousel .carousel-control-next .carousel-control-next-icon {
+  background-image: url(../images/arrow-right.png);
+  width: 11px;
+  height: 17px;
 }
