@@ -506,3 +506,286 @@ body {
   max-width: 250px;
   font-family: 'Roboto Condensed', sans-serif;
 }
+/**
+* Blog page
+*/
+.blog-banner {
+  background-image: url(../images/blog-banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 3.8% 0 6%;
+}
+.blog-banner .blog-caro-rap {
+  width: 70%;
+  margin: 0 auto;
+}
+.blog-banner .blog-caro-rap h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+}
+.blog-banner .blog-caro-rap .blog-caro {
+  padding: 43px 0 0 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel {
+  width: 100%;
+  margin: 0 auto;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-indicators {
+  bottom: -60px;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #00adef;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-indicators li.active {
+  height: 12px;
+  width: 12px;
+  background-color: #ffffff;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroleft {
+  float: left;
+  padding: 0;
+  width: 49.5%;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroleft img {
+  width: 91%%;
+  float: right;
+  border-radius: 5px;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright {
+  width: 49.5%;
+  float: left;
+  padding: 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright h4 {
+  margin: 15% 0 0 0;
+  color: #ffffff;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+  padding-left: 4%;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 25px;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .content {
+  min-height: 135px;
+  padding: 13px 0 0 4%;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .content p {
+  color: #ffffff;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 23px;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info {
+  padding: 0 0 0 4%;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul {
+  margin: 0;
+  padding: 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul li {
+  list-style: none;
+  float: left;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul li p {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  margin: 7px 0 0 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul li a {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul .more {
+  margin: 0 8% 0 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul .more .more-btn a {
+  padding: 6px 17px;
+  color: #00adef;
+  border: 1px solid #00adef;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul .admin {
+  margin: 0 5% 0 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul .p-date {
+  margin: 0 6% 0 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul .comment {
+  padding: 7px 0 0 0;
+  margin: 0 5% 0 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-inner .carousel-item .caroright .post-info ul .category {
+  padding: 7px 0 0 0;
+  margin: 0;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-control-prev {
+  left: 42.5%;
+  width: auto;
+  height: 20px;
+  bottom: -58px;
+  top: auto;
+  z-index: 111;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-control-prev .carousel-control-prev-icon {
+  background-image: url(../images/arrow-left.png);
+  width: 11px;
+  height: 17px;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-control-next {
+  right: 42.5%;
+  width: auto;
+  height: 20px;
+  bottom: -58px;
+  top: auto;
+  z-index: 111;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-control-next .carousel-control-next-icon {
+  background-image: url(../images/arrow-right.png);
+  width: 11px;
+  height: 17px;
+}
+.blog-banner .blog-caro-rap .blog-caro .carousel .carousel-indicators {
+  bottom: -72px;
+}
+.blog-section {
+  width: 100%;
+}
+.blog-section .blog-posts {
+  width: 70%;
+  float: left;
+}
+.blog-section .blog-posts .post {
+  width: 100%;
+  border-bottom: 1px dashed #d6d8e5;
+  padding: 7.7% 0 0 0;
+}
+.blog-section .blog-posts .post .post-content {
+  width: 72%;
+  margin: 0 auto;
+}
+.blog-section .blog-posts .post .post-content .caroleft {
+  float: left;
+  padding: 0;
+  width: 46.5%;
+}
+.blog-section .blog-posts .post .post-content .caroleft img {
+  width: 100%;
+  float: right;
+  border-radius: 5px;
+}
+.blog-section .blog-posts .post .post-content .caroright {
+  width: 53.5%;
+  float: left;
+  padding: 0;
+}
+.blog-section .blog-posts .post .post-content .caroright h4 {
+  margin: -4px 0 0 0;
+  color: #666666;
+  text-align: left;
+  border-bottom: 1px solid #d6d8e5;
+  padding-left: 5%;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 19px;
+}
+.blog-section .blog-posts .post .post-content .caroright .content {
+  min-height: 125px;
+  padding: 20px 0 0 5%;
+}
+.blog-section .blog-posts .post .post-content .caroright .content p {
+  color: #666666;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 23px;
+  margin: 0;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info {
+  padding: 0 0 0 5%;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info ul {
+  margin: 0;
+  padding: 0;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info ul li {
+  list-style: none;
+  float: left;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info ul li p {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  margin: 7px 0 0 0;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info ul li a {
+  color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info ul .more {
+  margin: 0;
+}
+.blog-section .blog-posts .post .post-content .caroright .post-info ul .more .more-btn a {
+  padding: 6px 17px;
+  color: #2e3192;
+  border: 1px solid #2e3192;
+}
+.blog-section .blog-posts .post .post-info {
+  width: 100%;
+  padding: 5% 0 7px 0;
+}
+.blog-section .blog-posts .post .post-info ul {
+  margin: 0;
+  padding: 0 4% 0 0;
+}
+.blog-section .blog-posts .post .post-info ul li {
+  list-style: none;
+  display: inline;
+}
+.blog-section .blog-posts .post .post-info ul li p {
+  color: #a2a4c7;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  margin: 7px 0 0 0;
+}
+.blog-section .blog-posts .post .post-info ul li a {
+  color: #a2a4c7;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.blog-section .blog-posts .post .post-info ul .admin {
+  margin: 0 3% 0 0;
+}
+.blog-section .blog-posts .post .post-info ul .p-date {
+  margin: 0 2% 0 0;
+}
+.blog-section .blog-posts .post .post-info ul .comment {
+  padding: 7px 0 0 0;
+  margin: 0 3% 0 0;
+}
+.blog-section .blog-posts .post .post-info ul .category {
+  padding: 7px 0 0 0;
+  margin: 0;
+}
+.blog-section .side-bar {
+  width: 30%;
+  float: left;
+}
